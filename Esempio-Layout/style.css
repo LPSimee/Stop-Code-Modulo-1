@@ -6,23 +6,44 @@
 }
 
 body{
-    padding: 40px;
+    padding: 70px 50px;
 }
 
+/* Header section */
 header{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     width: 100%;
     margin-bottom: 25px;
 }
 
 .header-text{
-    font-size: 30px;
     font-weight: bold;
     line-height: 0.9;
+    margin-bottom: 65px;
+}
+
+.header-text.title{
+    font-size: 44px;
+    float: left;
+}
+
+.header-text.author{
+    font-size: 34px;
+    float: right;
 }
 
 .half{
     width: 50%;
 }
+
+.header-img-list{
+    clear: both;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.header-img-list img{
+    max-width: 24%;
+    height: auto;
+    margin: 10px 10px 0 0;
+} /* End Header section */
