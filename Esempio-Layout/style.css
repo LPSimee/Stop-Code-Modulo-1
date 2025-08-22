@@ -23,6 +23,7 @@ header{
 
 .header-text.title{
     font-size: 44px;
+    text-transform: uppercase;
     float: left;
 }
 
@@ -47,3 +48,14 @@ header{
     height: auto;
     margin: 10px 10px 0 0;
 } /* End Header section */
+
+/* Who I am section */
+.who-i-am-ctn{
+    margin-top: 150px;
+}
+
+.who-i-am-title{
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 70px;
+}
