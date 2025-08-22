@@ -1,3 +1,6 @@
+/* Roboto font imported from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -51,11 +54,39 @@ header{
 
 /* Who I am section */
 .who-i-am-ctn{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
     margin-top: 150px;
+
 }
 
 .who-i-am-title{
+    width: 100%;
     font-size: 36px;
     font-weight: bold;
     margin-bottom: 70px;
 }
+
+.who-i-am-img-ctn{
+    width: 43%;
+}
+
+.who-i-am-img-ctn img{
+    width: 100%;
+    height: auto;
+}
+
+.who-i-am-text-ctn{
+    margin-left: 60px;
+    width: 45%;
+    line-height: 1.4;
+} 
+
+.who-i-am-text{
+    font-family: "Roboto", sans-serif;
+    font-size: 50px;
+    font-weight: 400;
+    margin-bottom: 30px;
+} /* End Who I am section */
+
