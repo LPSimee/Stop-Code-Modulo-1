@@ -16,6 +16,12 @@ body{
     margin-top: 150px;
 }
 
+.flex-ctn{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
 /* Header section */
 header{
     width: 100%;
@@ -45,9 +51,6 @@ header{
 
 .header-img-list{
     clear: both;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
 }
 
 .header-img-list img{
@@ -57,13 +60,6 @@ header{
 } /* End Header section */
 
 /* Who I am section */
-.who-i-am-ctn{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    
-}
-
 .title-section{
     width: 100%;
     font-size: 36px;
@@ -91,6 +87,13 @@ header{
     font-size: 50px;
     font-weight: 400;
     margin-bottom: 30px;
+} 
+
+.who-i-am-author{
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 30px;
+    line-height: 1.4;
 } /* End Who I am section */
 
 /* portfolio section */
