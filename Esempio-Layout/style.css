@@ -61,7 +61,7 @@ header{
 
 }
 
-.who-i-am-title{
+.title-section{
     width: 100%;
     font-size: 36px;
     font-weight: bold;
@@ -90,3 +90,4 @@ header{
     margin-bottom: 30px;
 } /* End Who I am section */
 
+/* portfolio section */
