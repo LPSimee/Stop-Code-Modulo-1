@@ -22,6 +22,13 @@ body{
     justify-content: space-between;
 }
 
+.title-section{
+    width: 100%;
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 70px;
+}
+
 /* Header section */
 header{
     width: 100%;
@@ -60,13 +67,6 @@ header{
 } /* End Header section */
 
 /* Who I am section */
-.title-section{
-    width: 100%;
-    font-size: 36px;
-    font-weight: bold;
-    margin-bottom: 70px;
-}
-
 .who-i-am-img-ctn{
     width: 43%;
 }
@@ -129,5 +129,21 @@ header{
 } /* End portfolio section */
 
 /* Info & Contact section */
+.info-contacts-img-ctn{
+    width: 36%;
+}
+
+.info-contacts-img-ctn img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.info-contacts-text-ctn{
+    width: 59%;
+    line-height: 1.4;
+}
+
 
 /* End Info & Contact section */
