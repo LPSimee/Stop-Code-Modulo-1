@@ -20,6 +20,7 @@ body{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    align-items: flex-start;
 }
 
 .title-section{
@@ -142,8 +143,27 @@ header{
 
 .info-contacts-text-ctn{
     width: 59%;
+    font-family: "Roboto", sans-serif;
     line-height: 1.4;
 }
 
+.info-contacts-text-title{
+    font-size: 56px;
+    margin-bottom: 40px;
+}
+
+.info-contacts-item{
+    width: 37%;
+    margin-right: 100px;
+    margin-bottom: 40px;
+}
+
+.info-contacts-description{
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 1.4;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
 
 /* End Info & Contact section */
