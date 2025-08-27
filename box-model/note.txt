@@ -1,0 +1,2 @@
+Lo scopo di questo Stop&Code è imparare a utilizzare dei file CSS esterni per ogni cartella presente nel progetto.
+In base alla cartella, i file CSS mostreranno diverse proprietà del box model.
