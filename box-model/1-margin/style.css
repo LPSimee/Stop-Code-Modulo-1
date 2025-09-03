@@ -1,0 +1,7 @@
+/* Stylesheet for box-model-1*/
+#box_1{
+    width: 450px;
+    height: 280px;
+    background-color: pink;
+    margin: 25px 0 20px 50px;
+}
