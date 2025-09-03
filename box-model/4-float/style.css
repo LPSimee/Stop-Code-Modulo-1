@@ -1,1 +1,13 @@
 /* Stylesheet for box-model-4 */
+h1{
+    color: red;
+}
+
+section{
+    width: 400px;
+    height: auto;
+    background-color: beige;
+    margin: 15px 0;
+    padding: 20px;
+    border: 5px dashed black;
+}

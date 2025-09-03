@@ -1,4 +1,8 @@
 /* Stylesheet for box-model-2 */
+h1{
+    color: green;
+}
+
 #box1{
     width: 410px;
     height: 240px;
