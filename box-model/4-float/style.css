@@ -11,3 +11,14 @@ section{
     padding: 20px;
     border: 5px dashed black;
 }
+
+div{
+    width: 340px;
+    height: auto;
+    background-color: beige;
+    margin: 15px;
+    padding: 15px 25px;
+    border-style: double;
+    border-width: 10px 5px;
+    border-color: green orange;
+}
