@@ -1,1 +1,10 @@
 /* Stylesheet for box-model-3 */
+.box{
+    width: 440px;
+    height: auto;
+    background-color: beige;
+    margin: 10px 0 10px 35px;
+    padding: 25px;
+    border-top: solid 10px #c0c0c0;
+    border-bottom: solid 10px #c0c0c0;
+}
