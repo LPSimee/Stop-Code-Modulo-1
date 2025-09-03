@@ -4,4 +4,14 @@
     height: 240px;
     background-color: bisque;
     margin: 25px 0 20px 50px;
+    padding: 25px;
+}
+
+.box2{
+    width: 300px;
+    height: auto;
+    text-align: center;
+    background-color: cornsilk;
+    margin: 15px;
+    padding: 20px 40px;
 }
