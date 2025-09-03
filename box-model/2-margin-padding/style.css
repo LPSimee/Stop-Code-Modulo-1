@@ -1,0 +1,7 @@
+/* Stylesheet for box-model-2 */
+#box1{
+    width: 410px;
+    height: 240px;
+    background-color: bisque;
+    margin: 25px 0 20px 50px;
+}
