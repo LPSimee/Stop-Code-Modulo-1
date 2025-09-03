@@ -1,4 +1,13 @@
 /* Stylesheet for box-model-5 */
+
+/* TASA Explorer font imported from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=TASA+Explorer:wght@400..800&display=swap');
+
+*{
+    box-sizing: border-box;
+    font-family: "TASA Explorer", sans-serif;
+}
+
 h1{
     color: orangered;
     text-align: center;
