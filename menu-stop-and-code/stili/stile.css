@@ -5,7 +5,7 @@
 }
 
 body{
-    margin:0;
+    margin: 0;
 }
 
 h1{
@@ -18,18 +18,40 @@ h1{
 
 main{
     margin: 40px 300px 90px;
+}
 
+nav{
+    background-color: #f7d100;
+}
+
+nav ul{
+    display: flex;
+    width: 100%;
+    list-style-type: none;
+}
+
+nav ul a{
+    text-decoration: none;
+}
+
+nav ul li{
+    width: 20%;
+    text-transform: uppercase;
+}
+
+nav ul li li {
+    text-transform: none;
+}
+
+#banner img{
+    max-width: 100%;
+    height: auto;
 }
 
 article{
     margin-top: 60px;
     padding: 0 30px;
     color: #323232; /* grey, carbon (similar) color*/
-}
-
-#banner img{
-    max-width: 100%;
-    height: auto;
 }
 
 article h2{
