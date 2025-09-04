@@ -28,18 +28,28 @@ nav ul{
     display: flex;
     width: 100%;
     list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
 nav ul a{
     text-decoration: none;
 }
 
+/* First level of the dropdown menu */
 nav ul li{
-    width: 20%;
+    flex: 1;/* width: 20%; */
     text-transform: uppercase;
+    text-align: center;
+    padding: 15px 0;
 }
 
-nav ul li li {
+nav ul ul{
+    display: none;
+}
+
+nav ul li li{
+    /* display: none; */
     text-transform: none;
 }
 
