@@ -27,6 +27,11 @@ article{
     color: #323232; /* grey, carbon (similar) color*/
 }
 
+#banner img{
+    max-width: 100%;
+    height: auto;
+}
+
 article h2{
     font-size: 30px;
 }
