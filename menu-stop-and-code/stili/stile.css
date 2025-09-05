@@ -71,7 +71,7 @@ nav ul ul{
 }
 
 /* hover effect on second level ul*/
-nav ul li:hover ul{
+nav ul li:hover > ul{
     display: block;
 }
 
@@ -85,6 +85,14 @@ nav ul li li{
 
 nav ul li li:hover{
     background-color: #2d57a4; /* blue color for hover effect */
+}
+
+/* Third level of the dropdown menu */
+nav ul ul ul{
+    left: 100%;
+    top: 0;
+    background-color: #5071af;
+    display: none;
 }
 
 #banner img{
