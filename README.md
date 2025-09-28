@@ -1,6 +1,6 @@
 # Configuration
 
-> [!ALERT]
+> [!WARNING]
 > If you use VS Code, please install Live Server extension to open each project
 
 ![Image of the Live Server icon](live-server-extension.png)
@@ -20,11 +20,6 @@ In this project we have to replicate the template based on `HTML5.pdf` by _forma
 
 > [!NOTE]
 > For this project it isn't needed to add any CSS styles.
-
-1. La _formattazione_ di diversi testi all'interno di un file html
-2. La _ristrutturazione_ di diversi 'box' prensenti dentro al file html sfruttando le proprietà del box model
-3. La _realizzazione_ di un layout web con 'float' o 'flexbox'
-4. La _gestione_ del menù di un sito web
 
 ## 2 box-model
 
